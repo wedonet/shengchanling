@@ -1,0 +1,215 @@
+Control Identifiers:
+
+Dialog - '计算器'    (L1321, T141, R1657, B685)
+['Dialog', '计算器Dialog', '计算器', 'Dialog0', 'Dialog1', '计算器Dialog0', '计算器Dialog1', '计算器0', '计算器1']
+child_window(title="计算器", control_type="Window")
+   | 
+   | Dialog - '计算器'    (L1461, T142, R1649, B174)
+   | ['Dialog2', '计算器Dialog2', '计算器2']
+   | child_window(title="计算器", auto_id="TitleBar", control_type="Window")
+   |    | 
+   |    | Menu - '系统'    (L0, T0, R0, B0)
+   |    | ['Menu', '系统Menu', '系统', '系统0', '系统1']
+   |    | child_window(title="系统", auto_id="SystemMenuBar", control_type="MenuBar")
+   |    |    | 
+   |    |    | MenuItem - '系统'    (L0, T0, R0, B0)
+   |    |    | ['MenuItem', '系统MenuItem', '系统2']
+   |    |    | child_window(title="系统", control_type="MenuItem")
+   |    | 
+   |    | Button - '最小化 计算器'    (L1511, T142, R1557, B174)
+   |    | ['最小化 计算器Button', '最小化 计算器', 'Button', 'Button0', 'Button1']
+   |    | child_window(title="最小化 计算器", auto_id="Minimize", control_type="Button")
+   |    | 
+   |    | Button - '使 计算器 最大化'    (L1557, T142, R1603, B174)
+   |    | ['使 计算器 最大化', '使 计算器 最大化Button', 'Button2']
+   |    | child_window(title="使 计算器 最大化", auto_id="Maximize", control_type="Button")
+   |    | 
+   |    | Button - '关闭 计算器'    (L1603, T142, R1649, B174)
+   |    | ['关闭 计算器Button', '关闭 计算器', 'Button3']
+   |    | child_window(title="关闭 计算器", auto_id="Close", control_type="Button")
+   | 
+   | Dialog - '计算器'    (L1329, T142, R1649, B677)
+   | ['Dialog3', '计算器Dialog3', '计算器3']
+   | child_window(title="计算器", control_type="Window")
+   |    | 
+   |    | Static - '计算器'    (L1341, T150, R1377, B166)
+   |    | ['计算器Static', '计算器4', 'Static', 'Static0', 'Static1']
+   |    | child_window(title="计算器", auto_id="AppName", control_type="Text")
+   |    | 
+   |    | GroupBox - ''    (L1329, T174, R1649, B673)
+   |    | ['计算器GroupBox', 'GroupBox', 'GroupBox0', 'GroupBox1']
+   |    |    | 
+   |    |    | Static - '表达式为 '    (L0, T0, R0, B0)
+   |    |    | ['表达式为 Static', 'Static2', '表达式为 ']
+   |    |    | child_window(title="表达式为 ", auto_id="CalculatorExpression", control_type="Text")
+   |    |    | 
+   |    |    | Static - '显示为 0'    (L1329, T236, R1649, B313)
+   |    |    | ['显示为 0Static', 'Static3', '显示为 0']
+   |    |    | child_window(title="显示为 0", auto_id="CalculatorResults", control_type="Text")
+   |    |    | 
+   |    |    | Button - '打开历史记录浮出控件'    (L1609, T174, R1649, B214)
+   |    |    | ['打开历史记录浮出控件Button', 'Button4', '打开历史记录浮出控件']
+   |    |    | child_window(title="打开历史记录浮出控件", auto_id="HistoryButton", control_type="Button")
+   |    |    | 
+   |    |    | GroupBox - '记忆控件'    (L1333, T314, R1645, B346)
+   |    |    | ['记忆控件GroupBox', '记忆控件', 'GroupBox2']
+   |    |    | child_window(title="记忆控件", auto_id="MemoryPanel", control_type="Group")
+   |    |    |    | 
+   |    |    |    | Button - '清除所有记忆'    (L1333, T314, R1383, B346)
+   |    |    |    | ['清除所有记忆Button', '清除所有记忆', 'Button5']
+   |    |    |    | child_window(title="清除所有记忆", auto_id="ClearMemoryButton", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Button - '记忆读出'    (L1385, T314, R1435, B346)
+   |    |    |    | ['记忆读出', '记忆读出Button', 'Button6']
+   |    |    |    | child_window(title="记忆读出", auto_id="MemRecall", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Button - '记忆加法'    (L1437, T314, R1487, B346)
+   |    |    |    | ['记忆加法Button', '记忆加法', 'Button7']
+   |    |    |    | child_window(title="记忆加法", auto_id="MemPlus", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Button - '记忆减法'    (L1489, T314, R1539, B346)
+   |    |    |    | ['记忆减法', '记忆减法Button', 'Button8']
+   |    |    |    | child_window(title="记忆减法", auto_id="MemMinus", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Button - '记忆存储'    (L1541, T314, R1592, B346)
+   |    |    |    | ['Button9', '记忆存储Button', '记忆存储']
+   |    |    |    | child_window(title="记忆存储", auto_id="memButton", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Button - '打开记忆浮出控件'    (L1595, T314, R1645, B346)
+   |    |    |    | ['打开记忆浮出控件Button', '打开记忆浮出控件', 'Button10']
+   |    |    |    | child_window(title="打开记忆浮出控件", auto_id="MemoryButton", control_type="Button")
+   |    |    | 
+   |    |    | GroupBox - '显示控件'    (L1333, T348, R1645, B400)
+   |    |    | ['显示控件GroupBox', '显示控件', 'GroupBox3']
+   |    |    | child_window(title="显示控件", auto_id="DisplayControls", control_type="Group")
+   |    |    |    | 
+   |    |    |    | Button - '百分比'    (L1333, T348, R1409, B400)
+   |    |    |    | ['百分比', '百分比Button', 'Button11']
+   |    |    |    | child_window(title="百分比", auto_id="percentButton", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Button - '清除条目'    (L1411, T348, R1487, B400)
+   |    |    |    | ['Button12', '清除条目Button', '清除条目']
+   |    |    |    | child_window(title="清除条目", auto_id="clearEntryButton", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Button - '清除'    (L1490, T348, R1566, B400)
+   |    |    |    | ['清除', '清除Button', 'Button13']
+   |    |    |    | child_window(title="清除", auto_id="clearButton", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Button - 'Backspace'    (L1568, T348, R1644, B400)
+   |    |    |    | ['Button14', 'BackspaceButton', 'Backspace']
+   |    |    |    | child_window(title="Backspace", auto_id="backSpaceButton", control_type="Button")
+   |    |    | 
+   |    |    | GroupBox - '标准函数'    (L1333, T402, R1566, B454)
+   |    |    | ['标准函数GroupBox', '标准函数', 'GroupBox4']
+   |    |    | child_window(title="标准函数", auto_id="StandardFunctions", control_type="Group")
+   |    |    |    | 
+   |    |    |    | Button - '倒数'    (L1333, T402, R1409, B454)
+   |    |    |    | ['倒数', '倒数Button', 'Button15']
+   |    |    |    | child_window(title="倒数", auto_id="invertButton", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Button - '平方'    (L1411, T402, R1487, B454)
+   |    |    |    | ['Button16', '平方', '平方Button']
+   |    |    |    | child_window(title="平方", auto_id="xpower2Button", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Button - '平方根'    (L1490, T402, R1566, B454)
+   |    |    |    | ['平方根', '平方根Button', 'Button17']
+   |    |    |    | child_window(title="平方根", auto_id="squareRootButton", control_type="Button")
+   |    |    | 
+   |    |    | GroupBox - '标准运算符'    (L1568, T402, R1644, B672)
+   |    |    | ['标准运算符GroupBox', 'GroupBox5', '标准运算符']
+   |    |    | child_window(title="标准运算符", auto_id="StandardOperators", control_type="Group")
+   |    |    |    | 
+   |    |    |    | Button - '除以'    (L1568, T402, R1644, B454)
+   |    |    |    | ['除以', '除以Button', 'Button18']
+   |    |    |    | child_window(title="除以", auto_id="divideButton", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Button - '乘以'    (L1568, T457, R1644, B509)
+   |    |    |    | ['乘以', '乘以Button', 'Button19']
+   |    |    |    | child_window(title="乘以", auto_id="multiplyButton", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Button - '减'    (L1568, T511, R1644, B563)
+   |    |    |    | ['减Button', '减', 'Button20']
+   |    |    |    | child_window(title="减", auto_id="minusButton", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Button - '加'    (L1568, T566, R1644, B618)
+   |    |    |    | ['加', 'Button21', '加Button']
+   |    |    |    | child_window(title="加", auto_id="plusButton", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Button - '等于'    (L1568, T620, R1644, B672)
+   |    |    |    | ['等于', '等于Button', 'Button22']
+   |    |    |    | child_window(title="等于", auto_id="equalButton", control_type="Button")
+   |    |    | 
+   |    |    | GroupBox - '数字键盘'    (L1333, T457, R1566, B673)
+   |    |    | ['数字键盘', '数字键盘GroupBox', 'GroupBox6']
+   |    |    | child_window(title="数字键盘", auto_id="NumberPad", control_type="Group")
+   |    |    |    | 
+   |    |    |    | Button - '零'    (L1411, T620, R1487, B672)
+   |    |    |    | ['零', '零Button', 'Button23']
+   |    |    |    | child_window(title="零", auto_id="num0Button", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Button - '一'    (L1333, T566, R1409, B618)
+   |    |    |    | ['一Button', '一', 'Button24']
+   |    |    |    | child_window(title="一", auto_id="num1Button", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Button - '二'    (L1411, T566, R1487, B618)
+   |    |    |    | ['二', '二Button', 'Button25']
+   |    |    |    | child_window(title="二", auto_id="num2Button", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Button - '三'    (L1490, T566, R1566, B618)
+   |    |    |    | ['三Button', '三', 'Button26']
+   |    |    |    | child_window(title="三", auto_id="num3Button", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Button - '四'    (L1333, T511, R1409, B563)
+   |    |    |    | ['Button27', '四', '四Button']
+   |    |    |    | child_window(title="四", auto_id="num4Button", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Button - '五'    (L1411, T511, R1487, B563)
+   |    |    |    | ['五', '五Button', 'Button28']
+   |    |    |    | child_window(title="五", auto_id="num5Button", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Button - '六'    (L1490, T511, R1566, B563)
+   |    |    |    | ['六Button', '六', 'Button29']
+   |    |    |    | child_window(title="六", auto_id="num6Button", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Button - '七'    (L1333, T457, R1409, B509)
+   |    |    |    | ['Button30', '七', '七Button']
+   |    |    |    | child_window(title="七", auto_id="num7Button", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Button - '八'    (L1411, T457, R1487, B509)
+   |    |    |    | ['Button31', '八Button', '八']
+   |    |    |    | child_window(title="八", auto_id="num8Button", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Button - '九'    (L1490, T457, R1566, B509)
+   |    |    |    | ['九Button', '九', 'Button32']
+   |    |    |    | child_window(title="九", auto_id="num9Button", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Button - '小数分隔符'    (L1490, T620, R1566, B672)
+   |    |    |    | ['小数分隔符', '小数分隔符Button', 'Button33']
+   |    |    |    | child_window(title="小数分隔符", auto_id="decimalSeparatorButton", control_type="Button")
+   |    |    | 
+   |    |    | Button - '正，负'    (L1333, T620, R1409, B672)
+   |    |    | ['正，负', '正，负Button', 'Button34']
+   |    |    | child_window(title="正，负", auto_id="negateButton", control_type="Button")
+   |    | 
+   |    | Static - '标准'    (L1377, T179, R1417, B206)
+   |    | ['标准Static', 'Static4', '标准']
+   |    | child_window(title="标准", auto_id="Header", control_type="Text")
+   |    | 
+   |    | Button - '始终置顶'    (L1427, T174, R1467, B214)
+   |    | ['Button35', '始终置顶Button', '始终置顶']
+   |    | child_window(title="始终置顶", auto_id="NormalAlwaysOnTopButton", control_type="Button")
+   |    | 
+   |    | Custom - ''    (L1329, T174, R1649, B677)
+   |    | ['计算器Custom', 'Custom']
+   |    | child_window(auto_id="NavView", control_type="Custom")
+   |    |    | 
+   |    |    | Button - '打开导航'    (L1329, T174, R1369, B214)
+   |    |    | ['打开导航Button', '打开导航', 'Button36']
+   |    |    | child_window(title="打开导航", auto_id="TogglePaneButton", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Static - ''    (L0, T0, R0, B0)
+   |    |    |    | ['Static5']
+   |    |    |    | child_window(auto_id="PaneTitleTextBlock", control_type="Text")
+   | 
+   | Pane - ''    (L1329, T174, R1649, B677)
+   | ['计算器Pane', 'Pane']

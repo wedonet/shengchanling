@@ -4,7 +4,14 @@ python3 -m venv ./venv
 
 ## 运行虚拟环境
 
+```
 ./venv/Scripts/activate.bat
+```
+
+windows下是
+```
+.\venv\Scripts\activate.bat
+```
 
 
 
@@ -21,6 +28,10 @@ pip3 install openpyxl
 pip3 install  xlrd  
 
 https://www.cnblogs.com/lnd-blog/p/12535423.html
+
+*** pywin32 ***
+
+https://github.com/mhammond/pywin32/releases
 
 
 
